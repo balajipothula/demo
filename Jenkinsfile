@@ -12,7 +12,7 @@ pipeline {
       }
     }
 
-    stage('mybatis execution') {
+    stage("MyBatis Execution") {
       steps{
         script{
            sh '''
